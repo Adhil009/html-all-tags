@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stylish HTML Page with All Tags</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Link to External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🌟 Stylish HTML Page Demo 🌟</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#form">Form</a>
+      <a href="#media">Media</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About HTML</h2>
+      <p><strong>HTML</strong> stands for <em>HyperText Markup Language</em>.</p>
+      <blockquote cite="https://developer.mozilla.org">"HTML is the standard markup language for web documents."</blockquote>
+      <cite>– MDN Docs</cite><br><br>
+      <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+      <pre>
+function greet() {
+  alert("Welcome!");
+}
+      </pre>
+    </section>
+
+    <section>
+      <h2>Lists</h2>
+      <ol>
+        <li>Item One</li>
+        <li>Item Two</li>
+      </ol>
+      <ul>
+        <li>Circle</li>
+        <li>Square</li>
+      </ul>
+      <dl>
+        <dt>HTML</dt>
+        <dd>Markup language</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Table</h2>
+      <table>
+        <caption>Sample Table</caption>
+        <thead>
+          <tr><th>Name</th><th>Age</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Ali</td><td>22</td></tr>
+          <tr><td>Meera</td><td>20</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="form">
+      <h2>Form</h2>
+      <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name" />
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email" />
+
+        <label>Gender:</label><br />
+        <input type="radio" name="gender" /> Male
+        <input type="radio" name="gender" /> Female<br /><br />
+
+        <label>Skills:</label><br />
+        <input type="checkbox" /> HTML
+        <input type="checkbox" /> CSS<br /><br />
+
+        <label>Country:</label>
+        <select>
+          <option>India</option>
+          <option>USA</option>
+        </select>
+
+        <label>Message:</label>
+        <textarea rows="3"></textarea>
+
+        <input type="submit" value="Send" />
+        <input type="reset" value="Reset" />
+      </form>
+    </section>
+
+    <section id="media">
+      <h2>Media</h2>
+      <img src="natures.jpeg" alt="Sample Image" />
+
+      <audio controls>
+        <source src="tiger-attack-195840.mp3" type="audio/mpeg" />
+        Your browser does not support audio.
+      </audio>
+
+      <video controls width="300">
+        <source src="natures video.mp4" type="video/mp4" />
+        Your browser does not support video.
+      </video>
+    </section>
+
+    <section>
+      <h2>More Tags</h2>
+      <p><mark>Highlighted text</mark>, <small>small text</small>, <del>deleted</del>, <ins>inserted</ins></p>
+      <p>Water = H<sub>2</sub>O | Square = X<sup>2</sup></p>
+      <details>
+        <summary>Click to reveal</summary>
+        This is hidden text shown on click.
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Stylish Web. All rights reserved.</p>
+    <address>Contact: <a href="mailto:you@example.com">you@example.com</a></address>
+  </footer>
+
+</body>
+</html>
+
