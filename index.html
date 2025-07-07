@@ -3,131 +3,69 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Stylish HTML Page with All Tags</title>
-
-  <!-- Google Font -->
+  <title>Adi's HTML Page</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-
-  <!-- Link to External CSS -->
   <link rel="stylesheet" href="style.css" />
+  <script>
+    function greet() {
+      alert("Hi, this is Adhil");
+    }
+  </script>
 </head>
 <body>
 
   <header>
-    <h1>🌟 Stylish HTML Page Demo 🌟</h1>
+    <h1>🌟 Adi's HTML Page Demo 🌟</h1>
     <nav>
-      <a href="#about">About</a>
-      <a href="#form">Form</a>
-      <a href="#media">Media</a>
+      <a href="index.html">Home</a>
+      <a href="form.html">Form</a>
+      <a href="media.html">Media</a>
     </nav>
   </header>
 
   <main>
-    <section id="about">
+    <section id="about-html">
       <h2>About HTML</h2>
-      <p><strong>HTML</strong> stands for <em>HyperText Markup Language</em>.</p>
-      <blockquote cite="https://developer.mozilla.org">"HTML is the standard markup language for web documents."</blockquote>
+      <p><strong>HTML</strong> stands for <em>HyperText Markup Language</em>. It is the standard language used to create web pages and web applications.</p>
+      <p>HTML provides the basic structure of a webpage using elements like headings, paragraphs, lists, images, links, tables, forms, and more. It is the foundation of every website you visit.</p>
+      <blockquote cite="https://developer.mozilla.org">
+        "HTML structures the content of a webpage using various tags. It is used along with CSS and JavaScript to build modern websites."
+      </blockquote>
       <cite>– MDN Docs</cite><br><br>
       <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+    </section>
+
+    <section id="about-css">
+      <h2>About CSS</h2>
+      <p><strong>CSS</strong> stands for <em>Cascading Style Sheets</em>. It is used to style and design HTML pages.</p>
+      <p>With CSS, you can change colors, fonts, layout, spacing, and much more. It helps make web pages look attractive and user-friendly.</p>
+      <p>There are three types of CSS: inline, internal, and external. Most developers use external CSS to keep design separate from content.</p>
+      <code>body { background-color: lightblue; font-family: 'Poppins'; }</code>
+    </section>
+
+    <section id="owner">
+      <h2>About the Owner</h2>
+      <p>This webpage is created by <strong>Shaik Adhil</strong>, a passionate web developer from <strong>India</strong>.</p>
+      <p>Adhil is always ready to help beginners learn <strong>HTML</strong> and <strong>CSS</strong>. His goal is to make learning web development easy and fun.</p>
+      <p>If you are interested in learning how to build webpages like this, feel free to contact Adhil and start your web development journey!</p>
+    </section>
+
+    <section id="greet">
+      <h2>Say Hello</h2>
+      <p>Click the button below to get a greeting from Adhil himself!</p>
       <pre>
 function greet() {
-  alert("Welcome!");
+  alert("Hi, this is Adhil");
 }
       </pre>
-    </section>
-
-    <section>
-      <h2>Lists</h2>
-      <ol>
-        <li>Item One</li>
-        <li>Item Two</li>
-      </ol>
-      <ul>
-        <li>Circle</li>
-        <li>Square</li>
-      </ul>
-      <dl>
-        <dt>HTML</dt>
-        <dd>Markup language</dd>
-      </dl>
-    </section>
-
-    <section>
-      <h2>Table</h2>
-      <table>
-        <caption>Sample Table</caption>
-        <thead>
-          <tr><th>Name</th><th>Age</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Ali</td><td>22</td></tr>
-          <tr><td>Meera</td><td>20</td></tr>
-        </tbody>
-      </table>
-    </section>
-
-    <section id="form">
-      <h2>Form</h2>
-      <form>
-        <label>Name:</label>
-        <input type="text" placeholder="Enter your name" />
-
-        <label>Email:</label>
-        <input type="email" placeholder="Enter your email" />
-
-        <label>Gender:</label><br />
-        <input type="radio" name="gender" /> Male
-        <input type="radio" name="gender" /> Female<br /><br />
-
-        <label>Skills:</label><br />
-        <input type="checkbox" /> HTML
-        <input type="checkbox" /> CSS<br /><br />
-
-        <label>Country:</label>
-        <select>
-          <option>India</option>
-          <option>USA</option>
-        </select>
-
-        <label>Message:</label>
-        <textarea rows="3"></textarea>
-
-        <input type="submit" value="Send" />
-        <input type="reset" value="Reset" />
-      </form>
-    </section>
-
-    <section id="media">
-      <h2>Media</h2>
-      <img src="natures.jpeg" alt="Sample Image" />
-
-      <audio controls>
-        <source src="tiger-attack-195840.mp3" type="audio/mpeg" />
-        Your browser does not support audio.
-      </audio>
-
-      <video controls width="300">
-        <source src="natures video.mp4" type="video/mp4" />
-        Your browser does not support video.
-      </video>
-    </section>
-
-    <section>
-      <h2>More Tags</h2>
-      <p><mark>Highlighted text</mark>, <small>small text</small>, <del>deleted</del>, <ins>inserted</ins></p>
-      <p>Water = H<sub>2</sub>O | Square = X<sup>2</sup></p>
-      <details>
-        <summary>Click to reveal</summary>
-        This is hidden text shown on click.
-      </details>
+      <button onclick="greet()">Click Me to Greet</button>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Stylish Web. All rights reserved.</p>
-    <address>Contact: <a href="mailto:you@example.com">you@example.com</a></address>
+    <p>&copy; 2025 Adi's Web. All rights reserved.</p>
+    <address>Contact: <a href="mailto:shaikadhil009@gmail.com">shaikadhil009@gmail.com</a></address>
   </footer>
 
 </body>
 </html>
-
