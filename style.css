@@ -1,10 +1,8 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -14,7 +12,6 @@ body {
   padding: 30px;
   line-height: 1.7;
 }
-
 
 header {
   background: rgba(255, 255, 255, 0.05);
@@ -45,14 +42,13 @@ nav a:hover {
   text-decoration: underline;
 }
 
-
 section {
   background-color: rgba(255, 255, 255, 0.07);
   border-left: 6px solid #ff009d;
   padding: 25px;
   margin-bottom: 30px;
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
@@ -68,7 +64,6 @@ h3 {
   color: #ffdb70;
 }
 
-
 ul, ol {
   margin-left: 20px;
 }
@@ -82,7 +77,6 @@ dl dd {
   margin-bottom: 10px;
   color: #eee;
 }
-
 
 table {
   width: 100%;
@@ -104,7 +98,6 @@ td {
   padding: 10px;
   color: #f1f1f1;
 }
-
 
 form label {
   display: block;
@@ -147,14 +140,12 @@ input[type="submit"]:hover {
   background-color: #ffff00;
 }
 
-
 img, video, audio {
   max-width: 100%;
   border-radius: 10px;
   margin-top: 15px;
   box-shadow: 0 0 10px #ffffff55;
 }
-
 
 blockquote {
   font-style: italic;
@@ -178,7 +169,6 @@ code {
   border-radius: 4px;
   color: #ff7b00;
 }
-
 
 mark {
   background: #ffff00;
@@ -218,7 +208,6 @@ summary {
   color: #00ffee;
 }
 
-
 footer {
   text-align: center;
   padding: 20px;
@@ -231,4 +220,48 @@ footer {
 footer a {
   color: #00ffd0;
   text-decoration: none;
+}
+
+/* ✅ Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 15px;
+    font-size: 0.95rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  table, th, td {
+    font-size: 0.9rem;
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .form-group {
+    flex-direction: column;
+  }
 }
